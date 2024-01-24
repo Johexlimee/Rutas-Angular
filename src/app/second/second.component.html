@@ -1,0 +1,8 @@
+<p [innerText]="title">Second works!</p>
+<input type="number" [value]="getnumber1()"><br><br>
+<button class="btn btn-warning"(click)="metodoEjemplo($event)">Evento click</button>
+<button class="btn btn-danger"(click)="metodoEjemplo2($event.target)">Evento click</button>
+<br><br><br>
+<hr>
+<input type="text" [(ngModel)]="text1">
+<p> {{text1}} </p>
